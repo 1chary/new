@@ -1,10 +1,7 @@
-class Person {
-    constructor(name,age) {
-        this.name = name,
-        this.age = age
-    }
+let arrowFunctionChecking = (firstName,lastName) => {
+    console.log(firstName + " " + lastName)
 }
 
-
-let objectInstance = new Person("Abhilash",23)
-console.log(objectInstance)
+let firstName = "Abhilash"
+let lastName = "chary"
+arrowFunctionChecking(firstName,lastName)
